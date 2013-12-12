@@ -1,0 +1,52 @@
+Name: ...
+Evergreen Login: ...
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+1.fastq=GC=0.43029262963
+2.fastq=GC=0.451051333333
+3.fastq=GC=0.646864112524
+4.fastq=GC=0.34852341166
+5.fastq=GC=0.263157894737
+6.fastq=GC=0.491518518519
+
+Problem 3:
+
+NameError: name 'linenum' is not defined
+When linenum was not assigned to a variable the program 
+couldn't define the next time linenum was used.
+So linenum could not add 1 to itself.
+
+If you remove gc_count = 0, the program repeats the same 
+problem that linenum had.
+
+Problem 4:
+
+GC-content; 0.43029262963
+AT-content; 0.568993851852
+
+Collaboration:
+
+Paul Phamp; walked me through the entire lab 
+pretty much with those instructions on hw3.
+
+Reflection:
+I learned a valueable lesson. Before getting extremely stressed
+out over not getting the results the first one hundred times,
+that I should read the directions better.
+
