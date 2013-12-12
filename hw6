@@ -173,14 +173,14 @@ For example :
 
 
 x=100
-if ( x==100 ) print “Value of X is equal to one hundred.”
+if ( x==100 ): print “Value of X is equal to one hundred.”
 
 
 The syntax of the ‘if’ statement is:
 
 
 if condition :
-indentedStatementBlock
+  indentedStatementBlock
 
 
 
@@ -222,9 +222,9 @@ The general syntax of an if\else statement is:
 
 
 if condition :
-indentedStatementBlockForTrueCondition
+  indentedStatementBlockForTrueCondition
 else:
-indentedStatementBlockForFalseCondition
+  indentedStatementBlockForFalseCondition
 
 
 
@@ -269,13 +269,13 @@ WeatherTodayIs = Sunny
 
 if WeatherTodayIs == Cloudy
         print ‘The weather is cloudy, bring a coat.’
-print WeatherTodayIs
+  print WeatherTodayIs
 elif WeatherTodayIs == Rainy
         print ‘The weather is rainy, stay inside.’
         print WeatherTodayIs
 elif WeatherTodayIs == Sunny
         print ‘The weather is sunny, get outside!’
-        print ‘WeatherTodayIs’
+        print WeatherTodayIs
 print ‘Enjoy the weather!’
 
 
